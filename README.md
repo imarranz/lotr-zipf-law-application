@@ -18,9 +18,9 @@ $$ f(n) = \frac{C}{n^a} $$
 
 Donde:
 
-  * $ f(n) $ es la frecuencia de la palabra en el puesto $ n $,
-  * $ C $ es una constante proporcional a la cantidad total de palabras,
-  * $ a $ es aproximadamente 1.
+  * $f(n)$ es la frecuencia de la palabra en el puesto $n$,
+  * $C$ es una constante proporcional a la cantidad total de palabras,
+  * $a$ es aproximadamente 1.
 
 Esta ley sugiere que la palabra más común en un idioma aparece aproximadamente dos veces más que la segunda más común, tres veces más que la tercera, y así sucesivamente. Este proyecto busca explorar cómo los textos de "El Señor de los Anillos" se ajustan a esta ley.
 
