@@ -7,27 +7,27 @@
 
 Este repositorio contiene un proyecto de análisis de datos en el que se exploran los tres libros de "El Señor de los Anillos" de J.R.R. Tolkien en relación con la Ley de Zipf.
 
-<img align="left" width="160" height="210" src="figures/caos-orden-otras-movidas.png"> Mi fascinación por la Ley de Zipf comenzó cuando me topé con ella por primera vez en el libro "Caos, Orden y otras movidas del universo". Esta ley, con su intrigante afirmación de que las palabras en cualquier idioma se distribuyen de manera tan predecible, captó mi atención inmediatamente. Su simplicidad y profundidad me parecieron tan sorprendentes que me sentí impulsado a explorarla más a fondo. ¿Podría esta ley aplicarse uniformemente a través de diferentes textos y contextos lingüísticos? Con esta pregunta en mente, decidí realizar este proyecto personal: aplicar mi propio análisis de la Ley de Zipf a los libros de "El Señor de los Anillos". Estas obras, ricas en lenguaje y estilo, ofrecían el escenario perfecto para investigar esta ley.
+<img align="left" width="160" height="210" src="figures/caos-orden-otras-movidas.png"> Mi interés por la Ley de Zipf comenzó cuando me topé con ella por primera vez en el libro "Caos, Orden y otras movidas del universo" de Adrián García (conocido como @el). Esta ley, con su intrigante afirmación de que las palabras en cualquier idioma se distribuyen de manera tan predecible, captó mi atención inmediatamente. Su simplicidad y profundidad me parecieron tan sorprendentes que me sentí impulsado a explorarla más a fondo. ¿Podría esta ley aplicarse uniformemente a través de diferentes textos y contextos lingüísticos? Con esta pregunta en mente, decidí realizar este proyecto personal: aplicar mi propio análisis de la Ley de Zipf a los libros de "El Señor de los Anillos". Estas obras, ricas en lenguaje y estilo, ofrecían el escenario perfecto para investigar esta ley.
 
 
 ## Introducción
 
 La Ley de Zipf es una ley estadística que se aplica a los datos lingüísticos, especialmente en el análisis de la frecuencia de las palabras en un idioma. Matemáticamente, se puede representar con la ecuación:
 
-\[ f(n) = \frac{C}{n^a} \]
+$$ f(n) = \frac{C}{n^a} $$
 
 Donde:
 
-  * \( f(n) \) es la frecuencia de la palabra en el puesto \( n \),
-  * \( C \) es una constante proporcional a la cantidad total de palabras,
-  * \( a \) es aproximadamente 1.
+  * $ f(n) $ es la frecuencia de la palabra en el puesto $ n $,
+  * $ C $ es una constante proporcional a la cantidad total de palabras,
+  * $ a $ es aproximadamente 1.
 
 Esta ley sugiere que la palabra más común en un idioma aparece aproximadamente dos veces más que la segunda más común, tres veces más que la tercera, y así sucesivamente. Este proyecto busca explorar cómo los textos de "El Señor de los Anillos" se ajustan a esta ley.
 
 ## Estructura del Repositorio
 
   * `/notebooks`: Notebooks de Python para procesamiento y análisis.
-  * `/data`: Datos procesados y conjuntos de datos auxiliares.
+  * `/data`: Datos procesados. Tres ficheros de texto con el contenido de los tres libros (en inglés).
   * `/figures`: Figuras utilizadas en el repositorio.
   * `README.md`: Descripción general y guía del proyecto.
   * `LICENSE.md`: Licencia del repositorio.
