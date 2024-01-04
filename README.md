@@ -67,6 +67,7 @@ $ jupyter nbconvert --to html lotr-zipf-law-application.ipynb
 <p align="center">
    <img src="figures/frequency-appearance-words.png">
 </p>
+
 **Figura**: Frecuencia de aparación normalizada de las palabras en los tres libros de El Señor de los Anillos. Se ha considerado tres valores para el parámetro $a$.
 
 ## Cómo Contribuir
